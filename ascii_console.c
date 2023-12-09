@@ -9,7 +9,8 @@ int main() {
 }
 
 void ascii() {
-	for(unsigned char i=0;i<128;i++) {
+	unsigned char i;
+	for(i=0;i<128;i++) {
 		switch(i) {
 			case 0:
 				printf("\n%-3d --> null\t|\t%d --> %c",i,i+128,i+128);
@@ -35,8 +36,7 @@ void ascii() {
 				printf("\n%-3d --> \\r\t|\t%d --> %c",i,i+128,i+128);
 				break;
 			default:
-				printf("\n%-3d --> %-4c\t|\t%d --> %c",i,i,i+128,i+128);
-			
+				printf("\n%-3d --> %-4c\t|\t%d --> %c",i,i,i+128,i+128);	
 		}	
 	}	
 }
