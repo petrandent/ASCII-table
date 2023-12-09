@@ -15,7 +15,7 @@ void ascii() {
 				printf("\n%-3d --> null\t|\t%d --> %c",i,i+128,i+128);
 				break;
 			case 7:
-				printf("\n%-3d --> bell\t|\t%d --> %c",i,i+128,i+128);
+				printf("\n%-3d --> \\a\t|\t%d --> %c",i,i+128,i+128);
 				break;
 			case 8:
 				printf("\n%-3d --> \\b\t|\t%d --> %c",i,i+128,i+128);
