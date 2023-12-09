@@ -32,6 +32,7 @@ void ascii() {
 				break;
 			case 12:
 				printf("\n%-3d --> \\f\t|\t%d --> %c",i,i+128,i+128);
+				break;
 			case 13:
 				printf("\n%-3d --> \\r\t|\t%d --> %c",i,i+128,i+128);
 				break;
